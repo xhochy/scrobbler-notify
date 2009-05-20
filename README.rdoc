@@ -1,0 +1,7 @@
+= last.fm-notify-osd
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Uwe L. Korn. See LICENSE for details.
