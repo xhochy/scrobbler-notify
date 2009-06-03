@@ -37,8 +37,8 @@ module Scrobbler
     def image_get
         @image = Tempfile.new('scrobbler-notify')
         if @track.image(:small).nil? || @track.image(:small).empty?
-            if @track.album.image(:small).nil? || @track.album.image(:small).empty?
-                if @track.artist.image(:small).nil? || @track.artist.image(:small).empty?
+            if @track.album.nil? || @track.album.image(:small).nil? || @track.album.image(:small).empty?
+                if @track.artist.nil? || @track.artist.image(:small).nil? || @track.artist.image(:small).empty?
                     image_uri = nil
                 else
                     image_uri = URI.parse(@track.artist.image(:small))
