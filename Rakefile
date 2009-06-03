@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "last.fm-notify-osd"
+    gem.name = "scrobbler-notify"
     gem.summary = %Q{Displays the current songs and some other information via certain notify libs on different systems}
     gem.email = "uwelk@xhochy.org"
     gem.homepage = "http://github.com/xhochy/last.fm-notify-osd"
