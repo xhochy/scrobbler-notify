@@ -7,7 +7,7 @@ begin
     gem.name = "scrobbler-notify"
     gem.summary = %Q{Displays the current songs and some other information via certain notify libs on different systems}
     gem.email = "uwelk@xhochy.org"
-    gem.homepage = "http://github.com/xhochy/last.fm-notify-osd"
+    gem.homepage = "http://github.com/xhochy/scrobbler-notify"
     gem.authors = ["Uwe L. Korn"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

@@ -1,6 +1,6 @@
-= last.fm-notify-osd
+= scrobbler-notify
 
-Description goes here.
+Library for notifiying the user of tracks played at a certain Last.fm account
 
 == Copyright
 
